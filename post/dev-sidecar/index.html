@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>Dev-Sidecar 开发者边车 | HUIZENX</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://15512818226.github.io/favicon.ico?v=1667816524987">
+<link rel="stylesheet" href="https://15512818226.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="#前言
+如果让你立刻打开github官网你会打开吗
+懂得都懂
+但是今天我和大家分享一个软件
+可以不使用VPN打开
+#获取方式
+Dev-Sidecar: 开发者边车:github.com/docmirror/dev-sidecar
+开发者边车..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://15512818226.github.io">
+        <img src="https://15512818226.github.io/images/avatar.png?v=1667816524987" class="site-logo">
+        <h1 class="site-title">HUIZENX</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+        
+          <a href="/post/update" class="site-nav">
+            更新列表
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      海内存知己，天涯若比邻
+    </div>
+    <div class="site-footer">
+      Powered By HUIZENX | <a class="rss" href="https://15512818226.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">Dev-Sidecar 开发者边车</h2>
+            <div class="post-date">2022-11-06</div>
+            
+            <div class="post-content" v-pre>
+              <p>#前言</p>
+<p>如果让你立刻打开github官网你会打开吗<br>
+懂得都懂<br>
+但是今天我和大家分享一个软件<br>
+可以不使用VPN打开</p>
+<p>#获取方式</p>
+<p>Dev-Sidecar: 开发者边车:github.com/docmirror/dev-sidecar<br>
+开发者边车，命名取自service-mesh的service-sidecar，意为为开发者打辅助的边车工具<br>
+通过本地代理的方式将https请求代理到一些国内的加速通道上<br>
+原理我就不和大家说太多<br>
+秒下懂不懂~</p>
+<figure data-type="image" tabindex="1"><img src="https://15512818226.github.io/post-images/1667716079029.png" alt="" loading="lazy"></figure>
+<p>本应用启动会自动修改系统代理，所以会与其他代理软件有冲突，请务必不要一起使用。<br>
+本应用主要目的在于直连访问github，如果你已经有飞机了，那建议还是不要用这个自行车了</p>
+<p>#最后</p>
+<p>喜欢可以给原作者一个免费的Star~<br>
+再见</p>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://15512818226.github.io/post/web/">
+                  <h3 class="post-title">
+                    建一个网站能有多简单~
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://15512818226.github.io</id>
+    <title>HUIZENX</title>
+    <updated>2022-11-07T10:22:06.568Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://15512818226.github.io"/>
+    <link rel="self" href="https://15512818226.github.io/atom.xml"/>
+    <subtitle>海内存知己，天涯若比邻</subtitle>
+    <logo>https://15512818226.github.io/images/avatar.png</logo>
+    <icon>https://15512818226.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, HUIZENX</rights>
+    <entry>
+        <title type="html"><![CDATA[Gridea 重大问题]]></title>
+        <id>https://15512818226.github.io/post/gridea-bug/</id>
+        <link href="https://15512818226.github.io/post/gridea-bug/">
+        </link>
+        <updated>2022-11-07T08:31:18.000Z</updated>
+        <content type="html"><![CDATA[<p>#讲述</p>
+<p>今天和平常一样写文章<br>
+写完了之后<br>
+我同步，tm的同步不上<br>
+用了Dev-Sidecar也不行<br>
+最后重启电脑<br>
+tm的Windows又给我补一刀<br>
+最后开机<br>
+打开Gridea<br>
+呀，啥也没有了<br>
+资料也没了<br>
+我看了一下站原点文件还在<br>
+我就将Gridea0.92更新为0.93<br>
+这时我慌了因为还是啥也没有了<br>
+我看了一下站原点文件路径<br>
+一片空白<br>
+我尝试设置<br>
+设置之后<br>
+保存<br>
+一保存重启Gridea<br>
+呀，又一空白<br>
+我又看了一下站原点文件路径<br>
+又一片空白<br>
+我tm真是tm的服了<br>
+我又重新安装了我的Windows11<br>
+tm的装回Gridea<br>
+tm又是一空白</p>
+<p>#总结</p>
+<p>站原点文件的Config不要动<br>
+其他的可以动<br>
+不然就和我一样<br>
+一片空白<br>
+再见</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gridea 静态博客写作客户端]]></title>
+        <id>https://15512818226.github.io/post/gridea/</id>
+        <link href="https://15512818226.github.io/post/gridea/">
+        </link>
+        <updated>2022-11-07T06:18:43.000Z</updated>
+        <content type="html"><![CDATA[<p>#前言</p>
+<p>当下大多数人可能已经对 Github Pages 不再陌生<br>
+他是很多喜欢写文章的人第一次接触的用于免费搭建 Blog 的工具<br>
+使用 Github Pages 你能很快速的构建一个简洁却又不失优雅的个人 Blog<br>
+直到现在互联网上还有大量的基于 Github Pages 的个人博客和搭建方法的教程<br>
+然而搭建虽然简单，但是管理和上传文章却相对麻烦不少<br>
+官方的教程里，你需要经历繁琐的 Git 步骤才能发布一篇文章和修改你的个人空间界面<br>
+对于那些想更便捷和优雅的操作 Github Pages 写作者来说<br>
+我郑重推荐这款静态博客写作客户端     Gridea</p>
+<p>#回顾</p>
+<p>上期:https://blog.huizenx.top/post/web/<br>
+我们利用Github开了一个仓库<br>
+但是有些人HTML不会写<br>
+但Gridea正好可以解决你的烦恼</p>
+<p>#食用方法</p>
+<p>下载地址:Gridea.Dev<br>
+用Github或者Gitee下载<br>
+安装完成<br>
+<img src="https://15512818226.github.io/post-images/1667802804475.png" alt="" loading="lazy"></p>
+<p>#配置</p>
+<p>点击远程<br>
+我们可以选择各种配置<br>
+<img src="https://15512818226.github.io/post-images/1667802983477.png" alt="" loading="lazy"><br>
+平台是Github Pages就好<br>
+域名处决与你的仓库名称[必须是username+.github.io]<br>
+仓库名称和上面一样就行<br>
+注意！！！<br>
+下面不要按着”master“填<br>
+现在Github更新了<br>
+从”master“更新为了”main“<br>
+邮箱可以不填<br>
+令牌最重要了</p>
+<p>#令牌</p>
+<p>打开这个网址:https://github.com/settings/tokens/new<br>
+创造一个新令牌<br>
+可以按着我这么填<br>
+<img src="https://15512818226.github.io/post-images/1667803678390.png" alt="" loading="lazy"></p>
+<p>#配置</p>
+<p>CHAME可以不填<br>
+这时你可以”检测远程连接“<br>
+如果不行可以使用Dev-Sidecar<br>
+Dev-Sidecar:https://blog.huizenx.top/post/dev-sidecar/</p>
+<p>#后语</p>
+<p>学会了Gridea<br>
+请开始你的表演吧<br>
+再见</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dev-Sidecar 开发者边车]]></title>
+        <id>https://15512818226.github.io/post/dev-sidecar/</id>
+        <link href="https://15512818226.github.io/post/dev-sidecar/">
+        </link>
+        <updated>2022-11-06T06:03:26.000Z</updated>
+        <content type="html"><![CDATA[<p>#前言</p>
+<p>如果让你立刻打开github官网你会打开吗<br>
+懂得都懂<br>
+但是今天我和大家分享一个软件<br>
+可以不使用VPN打开</p>
+<p>#获取方式</p>
+<p>Dev-Sidecar: 开发者边车:github.com/docmirror/dev-sidecar<br>
+开发者边车，命名取自service-mesh的service-sidecar，意为为开发者打辅助的边车工具<br>
+通过本地代理的方式将https请求代理到一些国内的加速通道上<br>
+原理我就不和大家说太多<br>
+秒下懂不懂~</p>
+<figure data-type="image" tabindex="1"><img src="https://15512818226.github.io/post-images/1667716079029.png" alt="" loading="lazy"></figure>
+<p>本应用启动会自动修改系统代理，所以会与其他代理软件有冲突，请务必不要一起使用。<br>
+本应用主要目的在于直连访问github，如果你已经有飞机了，那建议还是不要用这个自行车了</p>
+<p>#最后</p>
+<p>喜欢可以给原作者一个免费的Star~<br>
+再见</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[建一个网站能有多简单~]]></title>
+        <id>https://15512818226.github.io/post/web/</id>
+        <link href="https://15512818226.github.io/post/web/">
+        </link>
+        <updated>2022-11-06T05:42:22.000Z</updated>
+        <content type="html"><![CDATA[<p>#前言</p>
+<p>众所周知建一个网站需要Money<br>
+但是身为小学生的我本来就身无分文 再加上域名和虚拟主机这不更是雪上加霜<br>
+但是现在时代变了~</p>
+<p>#获取域名</p>
+<p>首先你要注册网站首先要有个域名[如果你确实很穷可以略过]<br>
+比如阿里云的万网<br>
+再比如西部数码[West.CN]<br>
+现在西部数码新人购买域名只要1元[不溢价]<br>
+可使用域名如下:<br>
+.shop 1元/首年<br>
+.store 1元/首年<br>
+.xyz 1元/首年<br>
+.icu 1元/首年<br>
+.live 1元/首年<br>
+.top 1元/首年<br>
+像.cn .com<br>
+也只用16元 47元<br>
+活动地址:https://west.cn/active/freetc/</p>
+<p>#github pages</p>
+<p>首先你得打开github[github.com]<br>
+如果你打不开可以使用Dev-Sidecar:https://blog.huizenx.top/post/dev-sidecar/<br>
+注册github账号 可以打开翻译插件<br>
+<img src="https://15512818226.github.io/post-images/1667780429778.png" alt="" loading="lazy"><br>
+点“New&quot;<br>
+<img src="https://15512818226.github.io/post-images/1667780513686.png" alt="" loading="lazy"><br>
+库名是 [username+.github.io]<br>
+假如你的名字是”HUIZENX最帅”那库名就是”HUIZENX最帅.github.io”<br>
+<img src="https://15512818226.github.io/post-images/1667780644580.png" alt="" loading="lazy"><br>
+当你输完你的名字了<br>
+他会有一个<img src="https://15512818226.github.io/post-images/1667780726479.png" alt="" loading="lazy"><br>
+那说明你的名称输对了<br>
+<img src="https://15512818226.github.io/post-images/1667780758825.png" alt="" loading="lazy"><br>
+这样就对了<br>
+最后“Create repository”<br>
+这样你的“github page”库<br>
+就制作好了<br>
+这样就和一个虚拟主机一样了<br>
+但是不同的是不可以使用FTP上传<br>
+但是也很香了</p>
+<p>#最后</p>
+<p>你可以使用Gridea:gridea.dev来编写HTML博客<br>
+再见</p>
+]]></content>
+    </entry>
+</feed>

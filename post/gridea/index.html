@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>Gridea 静态博客写作客户端 | HUIZENX</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://15512818226.github.io/favicon.ico?v=1667816524987">
+<link rel="stylesheet" href="https://15512818226.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="#前言
+当下大多数人可能已经对 Github Pages 不再陌生
+他是很多喜欢写文章的人第一次接触的用于免费搭建 Blog 的工具
+使用 Github Pages 你能很快速的构建一个简洁却又不失优雅的个人 Blog
+直到现在互联网上还有..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://15512818226.github.io">
+        <img src="https://15512818226.github.io/images/avatar.png?v=1667816524987" class="site-logo">
+        <h1 class="site-title">HUIZENX</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+        
+          <a href="/post/update" class="site-nav">
+            更新列表
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      海内存知己，天涯若比邻
+    </div>
+    <div class="site-footer">
+      Powered By HUIZENX | <a class="rss" href="https://15512818226.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">Gridea 静态博客写作客户端</h2>
+            <div class="post-date">2022-11-07</div>
+            
+            <div class="post-content" v-pre>
+              <p>#前言</p>
+<p>当下大多数人可能已经对 Github Pages 不再陌生<br>
+他是很多喜欢写文章的人第一次接触的用于免费搭建 Blog 的工具<br>
+使用 Github Pages 你能很快速的构建一个简洁却又不失优雅的个人 Blog<br>
+直到现在互联网上还有大量的基于 Github Pages 的个人博客和搭建方法的教程<br>
+然而搭建虽然简单，但是管理和上传文章却相对麻烦不少<br>
+官方的教程里，你需要经历繁琐的 Git 步骤才能发布一篇文章和修改你的个人空间界面<br>
+对于那些想更便捷和优雅的操作 Github Pages 写作者来说<br>
+我郑重推荐这款静态博客写作客户端     Gridea</p>
+<p>#回顾</p>
+<p>上期:https://blog.huizenx.top/post/web/<br>
+我们利用Github开了一个仓库<br>
+但是有些人HTML不会写<br>
+但Gridea正好可以解决你的烦恼</p>
+<p>#食用方法</p>
+<p>下载地址:Gridea.Dev<br>
+用Github或者Gitee下载<br>
+安装完成<br>
+<img src="https://15512818226.github.io/post-images/1667802804475.png" alt="" loading="lazy"></p>
+<p>#配置</p>
+<p>点击远程<br>
+我们可以选择各种配置<br>
+<img src="https://15512818226.github.io/post-images/1667802983477.png" alt="" loading="lazy"><br>
+平台是Github Pages就好<br>
+域名处决与你的仓库名称[必须是username+.github.io]<br>
+仓库名称和上面一样就行<br>
+注意！！！<br>
+下面不要按着”master“填<br>
+现在Github更新了<br>
+从”master“更新为了”main“<br>
+邮箱可以不填<br>
+令牌最重要了</p>
+<p>#令牌</p>
+<p>打开这个网址:https://github.com/settings/tokens/new<br>
+创造一个新令牌<br>
+可以按着我这么填<br>
+<img src="https://15512818226.github.io/post-images/1667803678390.png" alt="" loading="lazy"></p>
+<p>#配置</p>
+<p>CHAME可以不填<br>
+这时你可以”检测远程连接“<br>
+如果不行可以使用Dev-Sidecar<br>
+Dev-Sidecar:https://blog.huizenx.top/post/dev-sidecar/</p>
+<p>#后语</p>
+<p>学会了Gridea<br>
+请开始你的表演吧<br>
+再见</p>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://15512818226.github.io/post/dev-sidecar/">
+                  <h3 class="post-title">
+                    Dev-Sidecar 开发者边车
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>
